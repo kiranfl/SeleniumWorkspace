@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;test.java.customize.CustomizeBrandingTest&apos; to &apos;CustomizeElementLibrary&apos;&#x0D;&#x0A;- Original project: &apos;ThreadWebAutomation&apos;&#x0D;&#x0A;- Original element: &apos;test.java.customize.CustomizeBrandingTest&apos;&#x0D;&#x0A;- Renamed element: &apos;test.java.customize.CustomizeElementLibrary&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CustomizeBrandingTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;test.java.customize{CustomizeBrandingTest.java[CustomizeBrandingTest" matchStrategy="1" name="CustomizeElementLibrary" qualified="false" references="true" similarDeclarations="false" stamp="1499272585112" textual="false" version="1.0"/>
+</session>

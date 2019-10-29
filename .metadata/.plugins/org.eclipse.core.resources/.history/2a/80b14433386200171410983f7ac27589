@@ -1,0 +1,24 @@
+package test.java.customize;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import test.java.BaseClass;
+
+public class CustomizeRegistrationTest {
+
+	WebDriver webDriver = BaseClass.getInstance().getWebDriver();
+
+	public void registrationTest() {
+		// dselect firstname
+		webDriver
+				.findElement(By
+						
+						.xpath("//*[@id='app']/div/div[2]/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/label"))
+				.click();
+
+		// Click continue button
+		webDriver.findElement(By.xpath("//*[@id='app']/div/div[2]/div[2]/div/div/div[3]/div/div/button[2]")).click();
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<login_url>https://turbo-stage.styx.threadresearch.com/#/login</login_url>
+<user_name>kiran.rajam@fissionlabs.com</user_name>
+<password>Kiran1234@</password>
+<study_name>study</study_name>
+<app_name>app_name</app_name> <!-- 8 characters only-->
+<primary_color>#EA3A57</primary_color>
+<secondary_color>#83C6A8</secondary_color>
+<!-- 
+Suggested values are, 
+open_enrollment
+by_invitation -->
+<onboading_type>by_invitation</onboading_type>
+<add_surveys>yes</add_surveys>      <!-- Suggested values are, yes no -->
+<add_ePROs>yes</add_ePROs>          <!-- Suggested values are, yes no -->
+<add_eDROs>yes</add_eDROs>          <!-- Suggested values are, yes no -->
+<add_dashboards>yes</add_dashboards><!-- Suggested values are, yes no -->
+<add_validic>yes</add_validic>      <!-- Suggested values are, yes no -->
+<add_feedback>yes</add_feedback>    <!-- Suggested values are, yes no -->
+</config>

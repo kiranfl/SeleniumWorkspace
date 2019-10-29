@@ -1,0 +1,43 @@
+package test.java.customize;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import test.java.BaseClass;
+
+public class CustomizeOnboardingTest {
+
+	WebDriver webDriver = BaseClass.getInstance().getWebDriver();
+
+	@Test
+	public void customizeOnBoarding() {
+		// Enter screen title
+		webDriver.findElement(By.xpath("//*[@id='app']/div/div[2]/div[2]/div/div[1]/div[2]/div[3]/div/div[1]/input"))
+				.sendKeys("First screen title");
+		// Enter screen content
+		webDriver
+				.findElement(By
+						.xpath("//*[@id='app']/div/div[2]/div[2]/div/div[1]/div[2]/div[3]/div/div[2]/div/div[2]/div[1]"))
+				.sendKeys("Screen content");
+
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// Click save button
+		webDriver
+				.findElement(By
+						.xpath("//*[@id='app']/div/div[2]/div[2]/div/div[1]/div[2]/div[3]/div/div[3]/div[2]/button[2]"))
+				.click();
+
+		// Enter study description
+		webDriver.findElement(By.xpath("//*[@id='app']/div/div[2]/div[2]/div/div[1]/div[2]/div[2]/input"))
+				.sendKeys("Study description");
+
+		// Click continue button
+		webDriver.findElement(By.xpath("//*[@id='app']/div/div[2]/div[2]/div/div[4]/div/div/button[2]")).click();
+	}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ThreadWebAutomation"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="test.java.customize.CustomizeElementLibrary"/>
+<listEntry value="test.java.LoginTest"/>
+<listEntry value="test.java.design.DesignTestScreen6"/>
+<listEntry value="test.java.design.DesignTestScreen11"/>
+<listEntry value="test.util.Utils"/>
+<listEntry value="test.java.customize.CustomizeRegistrationTest"/>
+<listEntry value="test.java.design.DesignTestScreen8"/>
+<listEntry value="test.java.design.DesignTestScreen7"/>
+<listEntry value="test.java.design.DesignTestScreen10"/>
+<listEntry value="test.java.design.DesignTestScreen12"/>
+<listEntry value="test.java.design.DesignTestScreen9"/>
+<listEntry value="test.java.BaseClass"/>
+<listEntry value="test.java.customize.CustomizeBrandingTest"/>
+<listEntry value="test.java.customize.CustomizeEligibilityTest"/>
+<listEntry value="test.java.Const"/>
+<listEntry value="test.java.design.DesignTestScreen1"/>
+<listEntry value="test.java.customize.CustomizeOnboardingTest"/>
+<listEntry value="test.java.design.DesignTestScreen3"/>
+<listEntry value="test.java.customize.CustomizeConsentTest"/>
+<listEntry value="test.java.design.DesignTestScreen2"/>
+<listEntry value="test.java.CreateStudy"/>
+<listEntry value="test.java.design.DesignTestScreen5"/>
+<listEntry value="test.java.design.DesignTestScreen4"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

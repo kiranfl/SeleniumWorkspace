@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <classes>
+  <class name="test.java.LoginTest"/>
+  <class name = "test.java.CreateStudy"/>
+  <class name="test.java.design.DesignTestScreen1"/>
+  <class name="test.java.design.DesignTestScreen2"/>
+  <class name="test.java.design.DesignTestScreen3"/>
+  <class name="test.java.design.DesignTestScreen4"/>
+  <class name="test.java.design.DesignTestScreen5"/>
+  <class name="test.java.design.DesignTestScreen6"/>
+  <class name="test.java.design.DesignTestScreen7"/>
+  <class name="test.java.design.DesignTestScreen8"/>
+  <class name="test.java.design.DesignTestScreen9"/>
+  <class name="test.java.design.DesignTestScreen10"/>
+  <class name="test.java.design.DesignTestScreen11"/>
+  <class name="test.java.design.DesignTestScreen12"/>
+  <class name="test.java.customize.CustomizeElementLibrary"/>
+  <class name="test.java.customize.CustomizeBrandingTest"/>
+  <class name="test.java.customize.CustomizeRegistrationTest"/>
+  <class name ="test.java.customize.CustomizeOnboardingTest"/>
+  <class name ="test.java.customize.CustomizeEligibilityTest"/>
+  <class name="test.java.customize.CustomizeConsentTest"/> 
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

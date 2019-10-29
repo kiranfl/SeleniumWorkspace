@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.java.XesignModuleTest">
+        <methods>
+          <include name="screen"/>
+        </methods>
+      </class> <!-- test.java.XesignModuleTest -->
+      <class name="test.java.LoginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.java.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
